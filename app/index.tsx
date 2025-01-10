@@ -6,11 +6,7 @@ export default function Index() {
 
   useEffect(() => {
     const timeout = setTimeout(() => {
-<<<<<<< HEAD
       router.push("./routes/onBoarding");
-=======
-      router.push("./routes/login");
->>>>>>> 97595db90dcee25f9e85e97bf40b78e3285c9154
     }, 0);
 
     return () => clearTimeout(timeout);
